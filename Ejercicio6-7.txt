@@ -1,0 +1,31 @@
+6) ¿Qué es una wiki?¿Para que suele usarse? Investigue, cómo usar la wiki del github. Cargue
+en la wiki de su repositorio todas las respuestas.
+
+Una wiki es un sitio web colaborativo que permite a los usuarios crear, editar y enlazar páginas de forma sencilla. Suele usarse para documentar información, compartir conocimientos y colaborar en proyectos de manera eficiente.
+Para usar la wiki de GitHub, sigue estos pasos:
+1. Crear la wiki: Si aún no tienes una wiki en tu repositorio de GitHub, ve a la pestaña "Wiki" en la página principal del repositorio y haz clic en "Create the first page" o "Crear la primera página".
+2. Editar la wiki: Para editar una página de la wiki, simplemente haz clic en el botón "Edit" en la parte superior de la página. Puedes usar el editor integrado de GitHub para hacer cambios.
+3. Crear nuevas páginas: Para crear una nueva página, ve a la pestaña "Wiki" en tu repositorio y haz clic en "New Page". Luego, ingresa el nombre de la página y comienza a escribir contenido.
+4. Enlazar páginas: Puedes enlazar páginas de la wiki entre sí utilizando la sintaxis de enlace wiki estándar: [[Nombre de la página]].
+5. Subir archivos: Puedes subir archivos a la wiki de GitHub arrastrándolos y soltándolos en la página de edición o utilizando el botón de carga de archivos.
+6. Historial de cambios: GitHub mantiene un historial de cambios para cada página de la wiki, lo que te permite ver quién realizó cambios y revertir a versiones anteriores si es necesario.
+
+Una vez que hayas cargado todas las respuestas en la wiki de tu repositorio, los usuarios podrán acceder a esta información de forma fácil y colaborar en su mejora si es necesario. 
+
+
+7) En la Wiki de su repositorio: explique con sus propias palabras cuál es la diferencia entre memoria dinámica y estática. ¿Cuáles son las características de cada una? ¿En qué casos se debe usar cada una?
+La memoria estática y dinámica son dos formas de asignar y utilizar memoria en un programa.
+
+Memoria estática:
+-La memoria estática se asigna durante la compilación y su tamaño y ubicación en la memoria se determinan antes de que se ejecute el programa.
+-Las variables estáticas se declaran utilizando la palabra clave static y conservan su valor durante toda la vida del programa.
+-La memoria estática es limitada y se asigna en el segmento de datos del programa.
+-Se debe usar memoria estática cuando se conoce el tamaño de la memoria requerida en tiempo de compilación y cuando se desea que la variable conserve su valor entre llamadas a una función.
+
+Memoria dinámica:
+-La memoria dinámica se asigna durante la ejecución del programa y su tamaño y ubicación en la memoria pueden cambiar en tiempo de ejecución.
+-La asignación de memoria dinámica se realiza utilizando funciones como malloc, calloc o realloc en C.
+-La memoria dinámica es más flexible y puede asignarse y liberarse según sea necesario.
+-Se debe usar memoria dinámica cuando el tamaño de la memoria requerida no se conoce en tiempo de compilación o cuando se necesita gestionar la memoria de forma más dinámica.
+
+En resumen, la principal diferencia entre la memoria estática y dinámica radica en el momento en que se asigna y se libera la memoria, así como en su flexibilidad y capacidad de gestión. La elección entre memoria estática y dinámica depende de los requisitos específicos de cada programa y de la eficiencia en la gestión de la memoria que se desee lograr.
